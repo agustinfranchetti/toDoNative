@@ -4,7 +4,9 @@ import {NativeBaseProvider, Box} from 'native-base';
 export default function App() {
   return (
     <NativeBaseProvider>
-      <Box>Hello world</Box>
+      <Box h="100%" w="100%" alignItems="center" justifyContent="center">
+        Hello world
+      </Box>
     </NativeBaseProvider>
   );
 }
